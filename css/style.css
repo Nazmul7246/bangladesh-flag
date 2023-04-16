@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/******** css starts here **********/
+.conteiner {
+    width: 800px;
+    height: 450px;
+    background: green;
+    position: relative;
+}
+.red{
+    width: 190px;
+    height: 190px;
+    background: red;
+    top: 140px;
+    left: 270px;
+    position: absolute;
+    border-radius: 50%;
+}
+.nadu{
+    width: 190px;
+    height: 190px;
+    background: red;
+    top: 140px;
+    left: 270px;
+    position: absolute;
+    border-radius: 50%;
+}
+.yellow{
+    width: 20px;
+    height: 800px;
+    background: yellow;
+    top: 0px;
+    left: 0px;
+    border: 2px solid black;
+    position: fixed;
+    cursor: pointer;
+}
+.itg{
+    width: 280px;
+    height: 100px;
+    top: 165px;
+    right: -195px;
+    position: fixed;
+    z-index: 2;
+}
+.itg:hover{
+    width: 280px;
+    height: 100px;
+    top: 165px;
+    right: 0px;
+    position: fixed;
+    transition: 1s;
+}
+
+
+.fb{
+    width: 270px;
+    height: 60px;
+    top: 260px;
+    right: -150px;
+    position: fixed;
+    cursor: pointer;
+}
+.fb:hover{
+    width: 270px;
+    height: 60px;
+    top: 260px;
+    right: 0px;
+    position: fixed;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+.yt{
+    width: 250px;
+    height: 50px;
+    top: 340px;
+    right: -160px;
+    position: fixed;
+}
+.yt:hover{
+    width: 250px;
+    height: 50px;
+    top: 340px;
+    right: 0px;
+    position: fixed;
+    transition: 1s;
+}
+
+
+.tt{
+    width: 270px;
+    height: 250px;
+    top: 0px;
+    right: -200px;
+    position: fixed;
+    z-index: 1;
+}
+.tt:hover{
+    width: 270px;
+    height: 250px;
+    top: 0px;
+    right: 0px;
+    position: fixed;
+    transition: 1s;
+}
+
+
+
+
+
